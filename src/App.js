@@ -10,6 +10,12 @@ import Profile from "./components/profil/profile";
 import Save from "./components/save/save";
 import Days from "./components/days/day";
 import Add from "./components/add/add";
+import Elementone from "./components/alomatlar/elements/elementone";
+import Elementtwo from "./components/alomatlar/elements/elementtwo";
+import Elementthree from "./components/alomatlar/elements/elementthree";
+import ElementNom from "./components/alomatlar/elements/elementNom";
+import ElementNomTwo from "./components/alomatlar/elements/elementNomTwo";
+import ElementNomThree from "./components/alomatlar/elements/elementNomThree";
 
 const App = () => {
   return (
@@ -25,6 +31,12 @@ const App = () => {
         <Route path="/save" element={<Save />} />
         <Route path="/day" element={<Days />} />
         <Route path="/add" element={<Add />} />
+        <Route path="/yotal" element={<Elementone />} />
+        <Route path="/bosh-ogrigi" element={<Elementtwo />} />
+        <Route path="/allergiya" element={<Elementthree />} />
+        <Route path="/kalsiy" element={<ElementNom />} />
+        <Route path="/yodomarin" element={<ElementNomTwo />} />
+        <Route path="/magniy" element={<ElementNomThree />} />
       </Routes>
     </>
   )

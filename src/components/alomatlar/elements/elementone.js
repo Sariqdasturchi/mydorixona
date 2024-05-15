@@ -3,12 +3,12 @@ import { FaHeartCirclePlus } from "react-icons/fa6";
 import { FaHouse } from "react-icons/fa6";
 import { FaFileLines } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa6";
-import logo from '../imgs/logo.png';
-import './alomat.css'
-import '../home/home.css'
+import logo from '../../imgs/logo.png';
+import '../alomat.css';
+import '../../home/home.css';
 import { Link } from "react-router-dom";
 
-const Alomat = () => {
+const Elementone = () => {
     return (
         <section>
             <div className="homeCont">
@@ -24,17 +24,17 @@ const Alomat = () => {
                     <div className="alomatBtn">
                         <div className="">
                             <button className="">
-                            <Link to='/yotal'>Yo'tal</Link>
+                                <Link to='/quruq-yotal'>Quruq yo‘tal</Link>
                             </button>
                         </div>
                         <div className="">
                             <button className="">
-                            <Link to='/bosh-ogrigi'>Bosh og'rig'i</Link>
+                                <Link to='/nam-yotal'>Nam yo‘tal</Link>
                             </button>
                         </div>
                         <div className="">
                             <button className="">
-                            <Link to='/allergiya'>Allergiya</Link>
+                                <Link to='/bronxial-astma'>Bronxial astma </Link>
                             </button>
                         </div>
                     </div>
@@ -54,4 +54,4 @@ const Alomat = () => {
         </section>
     )
 }
-export default Alomat
+export default Elementone

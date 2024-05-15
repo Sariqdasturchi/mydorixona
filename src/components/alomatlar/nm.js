@@ -5,6 +5,7 @@ import { FaFileLines } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa6";
 import logo from '../imgs/logo.png';
 import '../home/home.css'
+import { Link } from "react-router-dom";
 
 const NomBoyicha = () => {
     return (
@@ -22,17 +23,17 @@ const NomBoyicha = () => {
                     <div className="alomatBtn">
                         <div className="">
                             <button className="">
-                                <a>Kalsiy</a>
+                            <Link to='/kalsiy'>Kalsiy</Link>
                             </button>
                         </div>
                         <div className="">
                             <button className="">
-                                <a>Yodomarin</a>
+                            <Link to='/yodomarin'>Yodomarin</Link>
                             </button>
                         </div>
                         <div className="">
                             <button className="">
-                                <a>Magniy B6</a>
+                            <Link to='/magniy'>Magniy B6</Link>
                             </button>
                         </div>
                     </div>
