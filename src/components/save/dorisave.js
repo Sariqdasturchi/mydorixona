@@ -7,13 +7,14 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 import logo from '../imgs/logo.png';
 import '../home/home.css'
+import '../days/days.css'
 import { Link } from "react-router-dom";
 
-const Save = () => {
+const DoriSave = () => {
     return (
         <section>
             <div className="homeCont">
-                <div className='bacgroundImg'></div>
+            <div className='bacgroundImg'></div>
                 <div className="homeNavBar">
                     <h1>Mening <br /> Dorixonam</h1>
                 </div>
@@ -21,22 +22,21 @@ const Save = () => {
                     <img className="logo_img" src={logo} />
                 </div>
                 <div className="profileCont">
-                    <h1 className="">Dorini <br /> saqlash </h1>
+                    <h1 className="">Dorini saqalash </h1>
                 </div>
-                <div className="profileSetting">
+                <div className="budilnik">
                     <div>
-                        <button className="">
-                            <Link to="/dorini-saqlash">Dorini saqlash</Link>
-                        </button>
-                        <button className="">
-                            <Link to="/antibiotikni-saqalash">Antibiotikni saqlash</Link>
-                        </button>
+                        <label>Dori nomi</label>
+                        <input className="" />
+                    </div>
+                    <div>
+                        <button>Saqlash</button>
                     </div>
                 </div>
                 <div className="footerMenu">
                     <nav className="footer_menu">
                         <ul className="list">
-                            <li className="list_tag"><Link className="menu_tag" to="/day" ><FaCalendarDays /></Link></li>
+                        <li className="list_tag"><Link className="menu_tag" to="/day" ><FaCalendarDays /></Link></li>
                             <li className="list_tag"><Link className="menu_tag" to="/add" ><FaHeartCirclePlus /></Link></li>
                             <li className="list_tag"><Link className="menu_tag" to="/home" ><FaHouse /></Link></li>
                             <li className="list_tag"><Link className="menu_tag" to="/save" ><FaFileLines /></Link></li>
@@ -48,4 +48,4 @@ const Save = () => {
         </section>
     )
 }
-export default Save;
+export default DoriSave

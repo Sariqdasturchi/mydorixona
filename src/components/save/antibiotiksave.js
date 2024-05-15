@@ -7,9 +7,10 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 import logo from '../imgs/logo.png';
 import '../home/home.css'
+import '../days/days.css'
 import { Link } from "react-router-dom";
 
-const Save = () => {
+const AntibiotikSave = () => {
     return (
         <section>
             <div className="homeCont">
@@ -21,16 +22,15 @@ const Save = () => {
                     <img className="logo_img" src={logo} />
                 </div>
                 <div className="profileCont">
-                    <h1 className="">Dorini <br /> saqlash </h1>
+                    <h1 className="">Antibiotikni saqalash </h1>
                 </div>
-                <div className="profileSetting">
+                <div className="budilnik">
                     <div>
-                        <button className="">
-                            <Link to="/dorini-saqlash">Dorini saqlash</Link>
-                        </button>
-                        <button className="">
-                            <Link to="/antibiotikni-saqalash">Antibiotikni saqlash</Link>
-                        </button>
+                        <label>Antibiotik nomi</label>
+                        <input className="" />
+                    </div>
+                    <div>
+                        <button>Saqlash</button>
                     </div>
                 </div>
                 <div className="footerMenu">
@@ -48,4 +48,4 @@ const Save = () => {
         </section>
     )
 }
-export default Save;
+export default AntibiotikSave

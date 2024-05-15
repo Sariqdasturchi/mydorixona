@@ -31,3 +31,10 @@
     font-weight: 600;
     color: #314269;
 }
+
+.profileSetting div button a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #314269;
+}

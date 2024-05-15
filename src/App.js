@@ -56,6 +56,8 @@ import Elevitpronatal from "./components/alomatlar/yurak/elevitpronatal";
 import Omega from "./components/alomatlar/yurak/omega3";
 import Pivishan from "./components/alomatlar/yurak/pivishan";
 import Toufon from "./components/alomatlar/yurak/toufon";
+import DoriSave from "./components/save/dorisave";
+import AntibiotikSave from "./components/save/antibiotiksave";
 
 const App = () => {
   return (
@@ -118,6 +120,8 @@ const App = () => {
         <Route path="/omega-3" element={<Omega />} />
         <Route path="/pivishan" element={<Pivishan />} />
         <Route path="/toufon" element={<Toufon />} />
+        <Route path="/dorini-saqlash" element={<DoriSave />} />
+        <Route path="/antibiotikni-saqalash" element={<AntibiotikSave />} />
       </Routes>
     </>
   )
