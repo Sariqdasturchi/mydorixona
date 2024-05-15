@@ -15,7 +15,7 @@ const Login = () => {
                                 </div>
                             </div>
                             <div class="homeBar_btns">
-                                <a class="login" href={`/home`} >Kirish</a>
+                                <a class="login" href={`home`} >Kirish</a>
                                 <select name="leng" id="leng">
                                     <option value="Uz">O'zbekcha</option>
                                     <option value="Ru">Русский</option>

@@ -4,11 +4,9 @@ import { FaHouse } from "react-icons/fa6";
 import { FaFileLines } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa6";
 import logo from '../imgs/logo.png';
-import './homeMenu.css'
 import '../home/home.css'
-import { Link } from "react-router-dom";
 
-const HomeMenu = () => {
+const NomBoyicha = () => {
     return (
         <section>
             <div className="homeCont">
@@ -19,25 +17,22 @@ const HomeMenu = () => {
                 <div className="logo">
                     <img className="logo_img" src={logo} />
                 </div>
-                <div className="qidiruv">
-                    <h3 className="">Qulay qidiruv</h3>
-                    <div className="qidiruvBtn">
+                <div className="alomat">
+                    <h3 className="">Nomi bo'yicha</h3>
+                    <div className="alomatBtn">
                         <div className="">
-                            <button className=""></button>
                             <button className="">
-                                <Link to="/alomatlar-boyicha">Alomatlar bo'yicha</Link>
+                                <a>Kalsiy</a>
                             </button>
                         </div>
                         <div className="">
-                            <button className=""></button>
                             <button className="">
-                                <Link to="/nomi-boyicha">Nomi bo'yicha</Link>
+                                <a>Yodomarin</a>
                             </button>
                         </div>
                         <div className="">
-                            <button className=""></button>
                             <button className="">
-                                <Link to="/kategoriya-boyicha">Kategoriya bo'yicha</Link>
+                                <a>Magniy B6</a>
                             </button>
                         </div>
                     </div>
@@ -45,11 +40,11 @@ const HomeMenu = () => {
                 <div className="footerMenu">
                     <nav className="footer_menu">
                         <ul className="list">
-                            <li className="list_tag"><Link className="menu_tag" to="/day" ><FaCalendarDays /></Link></li>
-                            <li className="list_tag"><Link className="menu_tag" to="/add" ><FaHeartCirclePlus /></Link></li>
-                            <li className="list_tag"><Link className="menu_tag" to="/home-menu" ><FaHouse /></Link></li>
-                            <li className="list_tag"><Link className="menu_tag" to="/save" ><FaFileLines /></Link></li>
-                            <li className="list_tag"><Link className="menu_tag" to="/profil" ><FaUser /></Link></li>
+                            <li className="list_tag"><a className="menu_tag" href={`day`} ><FaCalendarDays /></a></li>
+                            <li className="list_tag"><a className="menu_tag" href={`add`} ><FaHeartCirclePlus /></a></li>
+                            <li className="list_tag"><a className="menu_tag" href={`home`} ><FaHouse /></a></li>
+                            <li className="list_tag"><a className="menu_tag" href={`save`} ><FaFileLines /></a></li>
+                            <li className="list_tag"><a className="menu_tag" href={`profil`} ><FaUser /></a></li>
                         </ul>
                     </nav>
                 </div>
@@ -57,4 +52,4 @@ const HomeMenu = () => {
         </section>
     )
 }
-export default HomeMenu
+export default NomBoyicha

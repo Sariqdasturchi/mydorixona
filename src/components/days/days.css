@@ -1,0 +1,36 @@
+.budilnik {
+    width: 90%;
+    height: 330px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.budilnik div {
+    display: flex;
+    flex-direction: column;
+}
+
+.budilnik div input {
+    width: 280px;
+    height: 35px;
+    margin: 2px 0;
+    padding: 0px 15px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background: #82DBD8;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #314269;
+}
+
+.budilnik div label {
+    padding: 0px 10px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #314269;
+}

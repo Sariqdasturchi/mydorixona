@@ -1,0 +1,33 @@
+.profileSetting {
+    width: 90%;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.profileCont h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #314269;
+}
+
+.profileSetting div {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileSetting div button {
+    width: 280px;
+    height: 40px;
+    margin: 12px;
+    border: none;
+    border-radius: 12px;
+    background: #82DBD8;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #314269;
+}

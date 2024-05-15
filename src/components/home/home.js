@@ -7,11 +7,13 @@ import { FaFileLines } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa6";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
+import { Link } from 'react-router-dom';
 
 const HomeCont = () => {
     return (
         <section>
             <div className="homeCont">
+                <div className='bacgroundImg'></div>
                 <div className="homeNavBar">
                     <h1>Mening <br /> Dorixonam</h1>
                 </div>
@@ -33,11 +35,11 @@ const HomeCont = () => {
                 <div className="footerMenu">
                     <nav className="footer_menu">
                         <ul className="list">
-                            <li className="list_tag"><a className="menu_tag" href={`day`} ><FaCalendarDays /></a></li>
-                            <li className="list_tag"><a className="menu_tag" href={`add`} ><FaHeartCirclePlus /></a></li>
-                            <li className="list_tag"><a className="menu_tag" href={`menu-home`} ><FaHouse /></a></li>
-                            <li className="list_tag"><a className="menu_tag" href={`save`} ><FaFileLines /></a></li>
-                            <li className="list_tag"><a className="menu_tag" href={`profile`} ><FaUser /></a></li>
+                        <li className="list_tag"><Link className="menu_tag" to="/day" ><FaCalendarDays /></Link></li>
+                            <li className="list_tag"><Link className="menu_tag" to="/add" ><FaHeartCirclePlus /></Link></li>
+                            <li className="list_tag"><Link className="menu_tag" to="/home-menu" ><FaHouse /></Link></li>
+                            <li className="list_tag"><Link className="menu_tag" to="/save" ><FaFileLines /></Link></li>
+                            <li className="list_tag"><Link className="menu_tag" to="/profil" ><FaUser /></Link></li>
                         </ul>
                     </nav>
                 </div>
