@@ -37,7 +37,7 @@ const HomeCont = () => {
                         <ul className="list">
                         <li className="list_tag"><Link className="menu_tag" to="/day" ><FaCalendarDays /></Link></li>
                             <li className="list_tag"><Link className="menu_tag" to="/add" ><FaHeartCirclePlus /></Link></li>
-                            <li className="list_tag"><Link className="menu_tag" to="/home-menu" ><FaHouse /></Link></li>
+                            <li className="list_tag"><Link className="menu_tag" to="/home" ><FaHouse /></Link></li>
                             <li className="list_tag"><Link className="menu_tag" to="/save" ><FaFileLines /></Link></li>
                             <li className="list_tag"><Link className="menu_tag" to="/profil" ><FaUser /></Link></li>
                         </ul>

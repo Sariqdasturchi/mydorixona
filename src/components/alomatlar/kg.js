@@ -5,6 +5,7 @@ import { FaFileLines } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa6";
 import logo from '../imgs/logo.png';
 import '../home/home.css'
+import { Link } from "react-router-dom";
 
 const KategoriyBoyicha = () => {
     return (
@@ -22,17 +23,17 @@ const KategoriyBoyicha = () => {
                     <div className="alomatBtn">
                         <div className="">
                             <button className="">
-                                <a>Yurak</a>
+                            <Link to='/yurak'>Yuark qon tomir</Link>
                             </button>
                         </div>
                         <div className="">
                             <button className="">
-                                <a>Teri kasalliklari</a>
+                                <Link to='/asab-tizimi'>Asab tizimi</Link>
                             </button>
                         </div>
                         <div className="">
                             <button className="">
-                                <a>Vitaminlar</a>
+                                <Link to='/vitaminlar'>Vitaminlar</Link>
                             </button>
                         </div>
                     </div>

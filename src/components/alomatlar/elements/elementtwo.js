@@ -20,7 +20,7 @@ const Elementtwo = () => {
                     <img className="logo_img" src={logo} />
                 </div>
                 <div className="alomat">
-                    <h3 className="">Alomatlar bo'yicha</h3>
+                    <h3 className="">Bosh og'rig'i bo'yicha</h3>
                     <div className="alomatBtn">
                         <div className="">
                             <button className="">

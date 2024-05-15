@@ -1,8 +1,8 @@
 .blockCont {
     width: 271px;
-    height: 350px;
+    height: auto;
     padding: 15px;
-    margin: 8px;
+    margin: 8px auto;
     background: #4f6eb134;
     border-radius: 15px;
 }
@@ -23,4 +23,29 @@
     font-size: 10px;
     font-family: "Poppins", sans-serif;
     color: #4F6EB1;
+}
+
+.alomatBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alomatBtn button {
+    width: 200px;
+    height: 46px;
+    margin: 7px auto;
+    border: none;
+    border: 1px solid #0090A4;
+    border-radius: 15px;
+    background: transparent;
+}
+
+.alomatBtn button a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #000;
 }

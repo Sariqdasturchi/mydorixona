@@ -6,13 +6,15 @@ import { FaUser } from "react-icons/fa6";
 import logo from '../../imgs/logo.png';
 import '../alomat.css';
 import '../../home/home.css';
+import '../elements/elementStyle/elements.css'
 import { Link } from "react-router-dom";
 
-const Elementone = () => {
+
+const AsabTizimi = () => {
     return (
         <section>
             <div className="homeCont">
-            <div className='bacgroundImg'></div>
+                <div className='bacgroundImg'></div>
                 <div className="homeNavBar">
                     <h1>Mening <br /> Dorixonam</h1>
                 </div>
@@ -20,23 +22,24 @@ const Elementone = () => {
                     <img className="logo_img" src={logo} />
                 </div>
                 <div className="alomat">
-                    <h3 className="">Yo'tal bo'yicha</h3>
                     <div className="alomatBtn">
-                        <div className="">
-                            <button className="">
-                                <Link to='/quruq-yotal'>Quruq yo‘tal</Link>
-                            </button>
-                        </div>
-                        <div className="">
-                            <button className="">
-                                <Link to='/nam-yotal'>Nam yo‘tal</Link>
-                            </button>
-                        </div>
-                        <div className="">
-                            <button className="">
-                                <Link to='/bronxial-astma'>Bronxial astma </Link>
-                            </button>
-                        </div>
+                        <button className="">
+                            <Link to='/novo-passit'>Novo-passit </Link>
+                        </button>
+
+                        <button className="">
+                            <Link to='/korvalol'>Korvalol  </Link>
+                        </button>
+
+                        <button className="">
+                            <Link to='/anaprilin'>Anaprilin </Link>
+                        </button>
+                        <button className="">
+                            <Link to='/fenibut'>Fenibut </Link>
+                        </button>
+                        <button className="">
+                            <Link to='/afabazol'>Afabazol</Link>
+                        </button>
                     </div>
                 </div>
                 <div className="footerMenu">
@@ -54,4 +57,4 @@ const Elementone = () => {
         </section>
     )
 }
-export default Elementone
+export default AsabTizimi
