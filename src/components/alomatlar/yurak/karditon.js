@@ -24,21 +24,30 @@ const Karditon = () => {
                     <h3 className="alomatText">Karditon </h3>
                     <div className="blockCont">
                         <div>
-                            <h4>Farmakodinamikasi</h4>
-                            <p>Kodelak Neo preparatining faol moddasi butamirat markaziy ta’sirga ega yo‘talga qarshi vosita hisoblanadi. Opiyning alkaloidlariga kimyoviy jihatdan ham, farmakologik jihatdan ham mansub emas. Qaramlik yoki ko‘nikib qolishni shakllantirmaydi.
-                                Yo‘tal markaziga bevosita ta’sir ega bo‘lib, yo‘talni susaytiradi. Bronxodilatatsiya qiluvchi samaraga ega (bronxlarni kengaytiradi). Spirometriya (nafas yo‘llarining qarshiligini kamaytiradi) va qonni oksigenatsiyasi (qonni kislorod bilan to‘yintiradi) ko‘rsatkichlarini yaxshilab, nafas olishni yengillashishiga yordam beradi.</p>
+                            <h4>Farmakoterapevtik guruhi</h4>
+                            <p>To‘qimalar metabolizmi va energiya bilan ta’minlanishini yaxshilovchi preparat.</p>
                         </div>
                         <div>
-                            <h4>Tarkibi</h4>
+                            <h4>Qo‘llanilishi</h4>
                             <p>
-                                Bir tabletka quyidagilarni saqlaydi:
-                                faol modda: butamirat sitrati – 50,00 mg; yordamchi moddalar: laktoza monogidrati (sut qandi) – 241,00 mg, gipromelloza (metosel-K4M) – 85,00 mg, talk – 4,00 mg, magniy stearati – 4,00 mg, kolloid kremniy dioksidi (aerosil) – 6,00 mg, quyimolekulyar povidon (quyimolekulyar polivinilpirrolidon) – 5,00 mg
+                                16 yoshgacha bo‘lgan bolalar va o‘smirlarda tana vazni tanqisligi va o‘sishini sekinlashishi;
+                                kardiomiopatiya, miokardit, yurak ishemik kasalligi (stenokardiya, postinfarkt holatlar);
+                                bosh miyada qon aylanishini buzilishi, nevrasteniya, travmatik ensefalopatiya, miopatiyalar;
                             </p>
                         </div>
                         <div>
-                            <h4>Kategoriyasi   </h4>
+                            <h4>
+                                Nojo’ya ta’siri    </h4>
                             <p>
-                                Shamollash va gripp
+                                Ovqat hazm qilish tizimi tomonidan: biroz dispeptik buzilishlar - epigastriyada og‘riq, meteorizm, diareya, qabziyat.
+                                Allergik reaksiyalar. Uremiyadan aziyat chekuvchi pasiyentlarda mushak kuchsizligi aniqlangan.
+                            </p>
+                        </div>
+                        <div>
+                            <h4>Ishlab chiqaruvchi</h4>
+                            <p>
+                                GM Pharmaceuticals Ltd.
+                                Gruziya, Tbilisi sh., Ponichala 65
                             </p>
                         </div>
 

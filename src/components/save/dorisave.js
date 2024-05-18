@@ -22,7 +22,7 @@ const DoriSave = () => {
                     <img className="logo_img" src={logo} />
                 </div>
                 <div className="profileCont">
-                    <h1 className="">Dorini saqalash </h1>
+                    <h1 className="">Saqalash </h1>
                 </div>
                 <div className="budilnik">
                     <div>

@@ -24,21 +24,26 @@ const NovoPassit = () => {
                     <h3 className="alomatText">NovoPassit </h3>
                     <div className="blockCont">
                         <div>
-                            <h4>Farmakodinamikasi</h4>
-                            <p>Kodelak Neo preparatining faol moddasi butamirat markaziy ta’sirga ega yo‘talga qarshi vosita hisoblanadi. Opiyning alkaloidlariga kimyoviy jihatdan ham, farmakologik jihatdan ham mansub emas. Qaramlik yoki ko‘nikib qolishni shakllantirmaydi.
-                                Yo‘tal markaziga bevosita ta’sir ega bo‘lib, yo‘talni susaytiradi. Bronxodilatatsiya qiluvchi samaraga ega (bronxlarni kengaytiradi). Spirometriya (nafas yo‘llarining qarshiligini kamaytiradi) va qonni oksigenatsiyasi (qonni kislorod bilan to‘yintiradi) ko‘rsatkichlarini yaxshilab, nafas olishni yengillashishiga yordam beradi.</p>
+                            <h4>Farmakoterapevtik guruhi</h4>
+                            <p>Gipnotik va sedativlar</p>
                         </div>
                         <div>
-                            <h4>Tarkibi</h4>
+                            <h4>Qo‘llanilishi</h4>
                             <p>
-                                Bir tabletka quyidagilarni saqlaydi:
-                                faol modda: butamirat sitrati – 50,00 mg; yordamchi moddalar: laktoza monogidrati (sut qandi) – 241,00 mg, gipromelloza (metosel-K4M) – 85,00 mg, talk – 4,00 mg, magniy stearati – 4,00 mg, kolloid kremniy dioksidi (aerosil) – 6,00 mg, quyimolekulyar povidon (quyimolekulyar polivinilpirrolidon) – 5,00 mg
+                                Engil nevresteniya, ayniqsa, tashvish, qo'rquv, xafagarchilik, bezovtalik, asabiylashish, kontsentratsiyaning pasayishi yoki charchoq bilan birga bo'lsa; engil uyqusizlik, charchash yoki nevrotik xotira buzilishi.
                             </p>
                         </div>
                         <div>
-                            <h4>Kategoriyasi   </h4>
+                            <h4>Qo‘llash mumkin bo‘lmagan holatlar   </h4>
                             <p>
-                                Shamollash va gripp
+                                faol moddalarga yoki epilepsiya, depressiya va markaziy asab tizimining depressiyasi bilan bog'liq boshqa holatlar;
+                                siklosporin yoki takrolimusdan birgalikda foydalanish; OIVga chalingan bemorlarda 12 yoshgacha bo'lgan bolalarda qo'llash
+                            </p>
+                        </div>
+                        <div>
+                            <h4>Ishlab chiqaruvchi:  </h4>
+                            <p>
+                                Teva Chex  Industries s.r.o. Adres:Ostravsko 305/29, Komarov, 747 70 Opava, Chexiya.
                             </p>
                         </div>
 
