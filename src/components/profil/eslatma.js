@@ -7,8 +7,9 @@ import logo from '../imgs/logo.png';
 import './profile.css'
 import '../home/home.css'
 import { Link } from "react-router-dom";
+import './sozlanma.css';
 
-const Profile = () => {
+const Eslatma = () => {
     return (
         <section>
             <div className="homeCont">
@@ -20,22 +21,13 @@ const Profile = () => {
                     <img className="logo_img" src={logo} />
                 </div>
                 <div className="profileCont">
-                    <h1 className="">Profile <br/> sozlanmalari </h1>
+                    <h1 className="">Eslatma </h1>
                 </div>
                 <div className="profileSetting">
                     <div>
-                        <button className="">
-                            <Link to='/shaxsiy-malumot'>Shaxsiy malumotlar</Link>
-                        </button>
-                        <button className="">
-                            <Link to='/eslatma'>Eslatma!</Link>
-                        </button>
-                        <button className="">
-                            <Link to='/ilova-tili'>Ilova tili</Link>
-                        </button>
-                        <button className="">
-                            <Link to='/'>Chiqish</Link>
-                        </button>
+                        <div className="eslatma">
+
+                        </div>
                     </div>
                 </div>
                 <div className="footerMenu">
@@ -54,4 +46,4 @@ const Profile = () => {
     )
 }
 
-export default Profile
+export default Eslatma

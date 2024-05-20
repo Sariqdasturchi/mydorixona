@@ -58,6 +58,9 @@ import Pivishan from "./components/alomatlar/yurak/pivishan";
 import Toufon from "./components/alomatlar/yurak/toufon";
 import DoriSave from "./components/save/dorisave";
 import AntibiotikSave from "./components/save/antibiotiksave";
+import ProfileSozlanma from "./components/profil/sozlanma";
+import Eslatma from "./components/profil/eslatma";
+import IlovaTili from "./components/profil/til";
 
 const App = () => {
   return (
@@ -122,6 +125,9 @@ const App = () => {
         <Route path="/toufon" element={<Toufon />} />
         <Route path="/dorini-saqlash" element={<DoriSave />} />
         <Route path="/antibiotikni-saqalash" element={<AntibiotikSave />} />
+        <Route path="/shaxsiy-malumot" element={<ProfileSozlanma />} />
+        <Route path="/eslatma" element={<Eslatma />} />
+        <Route path="/ilova-tili" element={<IlovaTili />} />
       </Routes>
     </>
   )

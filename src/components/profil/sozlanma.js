@@ -7,8 +7,9 @@ import logo from '../imgs/logo.png';
 import './profile.css'
 import '../home/home.css'
 import { Link } from "react-router-dom";
+import './sozlanma.css';
 
-const Profile = () => {
+const ProfileSozlanma = () => {
     return (
         <section>
             <div className="homeCont">
@@ -20,22 +21,16 @@ const Profile = () => {
                     <img className="logo_img" src={logo} />
                 </div>
                 <div className="profileCont">
-                    <h1 className="">Profile <br/> sozlanmalari </h1>
+                    <h1 className="">Shaxsiy <br/> malumotlar </h1>
                 </div>
                 <div className="profileSetting">
                     <div>
-                        <button className="">
-                            <Link to='/shaxsiy-malumot'>Shaxsiy malumotlar</Link>
-                        </button>
-                        <button className="">
-                            <Link to='/eslatma'>Eslatma!</Link>
-                        </button>
-                        <button className="">
-                            <Link to='/ilova-tili'>Ilova tili</Link>
-                        </button>
-                        <button className="">
-                            <Link to='/'>Chiqish</Link>
-                        </button>
+                        <label form="name">Ismi</label>
+                        <input type="text" value={'Xurshida'} name="name" />
+                        <label form="age">Yoshi</label>
+                        <input type="text" value={24} name="age" />
+                        <label form="tel">Telefon raqami</label>
+                        <input type="text" value={+998940000101} name="tel" />
                     </div>
                 </div>
                 <div className="footerMenu">
@@ -54,4 +49,4 @@ const Profile = () => {
     )
 }
 
-export default Profile
+export default ProfileSozlanma
