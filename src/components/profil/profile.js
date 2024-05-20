@@ -20,7 +20,7 @@ const Profile = () => {
                     <img className="logo_img" src={logo} />
                 </div>
                 <div className="profileCont">
-                    <h1 className="">Profile <br/> sozlanmalari </h1>
+                    <h1 className="">Profil <br/> sozlanmalari </h1>
                 </div>
                 <div className="profileSetting">
                     <div>
